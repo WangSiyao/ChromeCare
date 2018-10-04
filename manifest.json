@@ -1,12 +1,12 @@
 {
   "manifest_version": 2,
-  "name": "ChromeCare",
+  "name": "ArrangeCare",
   "description": "To arrange your Chrome Windows.",
   "version": "0.1",
 
   "browser_action": {
     "default_icon": "icon.png",
-    "default_title": "Chrome Care"
+    "default_title": "Arrange Care"
   },
 
   "background": {

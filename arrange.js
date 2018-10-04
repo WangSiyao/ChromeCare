@@ -6,6 +6,7 @@ var maxPerWindow = 15
 var newTabCnt = 0;
 
 function start() {
+  newTabCnt = 0;
   tabArr = new Array();
   chrome.windows.getAll(getAllWindows);
 }
@@ -42,8 +43,6 @@ function sortAndRerrange() {
   for (i = 0; i < newWindowsNum; i++) {
     chrome.windows.create({}, moveTabs);
   }
-  for (i = 0; i < tabArr.length; i++)
-    console.log(tabArr[i].url);
 }
 
 function moveTabs(window) {
