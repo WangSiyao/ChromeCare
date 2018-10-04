@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "ChromeCare",
-  "description": "Chrome Windows Arrange",
+  "description": "To arrange your Chrome Windows.",
   "version": "0.1",
 
   "browser_action": {
@@ -12,5 +12,7 @@
   "background": {
     "persistent": false,
     "scripts": ["arrange.js"]
-  }
+  },
+
+  "permissions": ["tabs"]
 }
